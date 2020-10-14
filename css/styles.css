@@ -33,6 +33,11 @@ body::after {
   display: table;
   clear: both;
 }
+#main_content_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /* header section */
