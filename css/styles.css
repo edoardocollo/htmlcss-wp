@@ -26,6 +26,7 @@ body {
   width: 60%;
   margin: auto;
   background-image: url('https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png');
+  font-family: 'Roboto', sans-serif;
 }
 body::after {
   content: "";
