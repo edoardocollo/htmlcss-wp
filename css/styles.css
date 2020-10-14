@@ -66,20 +66,24 @@ nav {
   background-color: #504741;
   color: #cbd0cf;
   text-align: center;
-  line-height: 46px;
 }
 #nav_link_container {
   display: inline-block;
 }
-nav a{
+.nav_link_list li {
+  list-style: none;
   display: block;
   float: left;
+
+}
+.nav_link_list li a {
+  display: block;
   height: 46px;
+  line-height: 46px;
   color: #cbd0cf;
   font-size: .75em;
   text-transform: uppercase;
   text-decoration: none;
-  vertical-align: middle;
   padding: 0 20px ;
   border-top: 1px solid #615954;
   border-right: 1px solid #615954;
@@ -87,10 +91,9 @@ nav a{
   border-left: 1px solid #615954;
 
 }
-nav a:hover {
+.nav_link_list li a:hover {
   background-color: #302b27;
 }
-
 /* /header section */
 
 
