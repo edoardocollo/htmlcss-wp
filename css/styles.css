@@ -1,0 +1,183 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /reset */
+
+
+/* utility class */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.radius {
+  border-radius: 5px;
+}
+
+
+/* /utility class */
+
+
+body {
+  width: 60%;
+  margin: auto;
+  background-image: url('https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png');
+}
+body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* header section */
+header {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.header_img {
+  position: relative;
+  height: 275px;
+  background-image: url('https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg');
+  background-size: cover;
+  border: 15px solid white;
+}
+.motto_container {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 157px;
+  background-image: url('../img/natural-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 46px;
+  background-color: #504741;
+  color: #cbd0cf;
+  text-align: center;
+  line-height: 46px;
+}
+#nav_link_container {
+  display: inline-block;
+}
+nav a{
+  display: block;
+  float: left;
+  height: 46px;
+  color: #cbd0cf;
+  font-size: .75em;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0 20px ;
+  border-top: 1px solid #615954;
+  border-right: 1px solid #615954;
+  border-bottom: 1px solid #3c3530;
+  border-left: 1px solid #615954;
+
+}
+nav a:hover {
+  background-color: #302b27;
+}
+
+/* /header section */
+
+
+/* left block and right block */
+aside.container {
+  width: 20%;
+}
+.aside_card {
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: white;
+  padding: 20px 15px;
+  position:relative;
+}
+.aside_card.left h3 {
+  text-align: center;
+}
+.aside_card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.aside_card p {
+}
+.aside_card.left a {
+  display: block;
+  text-decoration: none;
+  color: rgb(162, 211, 95);
+  margin-bottom: 15px;
+}
+.fas.fa-rss {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+}
+.fas.fa-rss:hover {
+  color:rgb(162, 211, 95);
+}
+i:hover {
+  cursor: pointer;
+}
+/* /left block and right block */
+
+
+/* main content center block */
+main {
+  width: 60%;
+  margin: auto;
+  padding: 0 20px;
+}
+.main_content.card {
+  padding: 30px 20px;
+  background-color: white;
+}
+.main_content.card h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 45px;
+  text-shadow: 3px 3px 3px gray;
+}
+/* /main content center block */
+
+
+/* footer block */
+footer {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 50px;
+  color: gray;
+  text-align: center;
+  padding: 10px 0;
+}
+footer h3 {
+  margin-bottom: 10px;
+}
+footer hr {
+  width: 98%;
+  margin: auto;
+}
+.footer_icon {
+  margin: 10px;
+}
+.footer_icon i{
+  font-size: 40px;
+  margin: 0 150px;
+}
+.footer_icon i:hover {
+  color: rgb(162, 211, 95);
+}
+
+/* /footer block */
