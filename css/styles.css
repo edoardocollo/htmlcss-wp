@@ -23,7 +23,7 @@
 
 
 body {
-  width: 60%;
+  width: 1400px;
   margin: auto;
   background-image: url('https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png');
   font-family: 'Roboto', sans-serif;
@@ -109,6 +109,7 @@ nav {
 .nav_link_list li a:hover {
   background-color: #302b27;
 }
+
 /* /header section */
 
 
